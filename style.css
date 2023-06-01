@@ -1,0 +1,36 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-variation-settings: normal;
+    line-height: 1.5;
+    tab-size: 4
+}
+
+body {
+    line-height: inherit;
+    margin: 0
+}
+
+h1 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+button {
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    text-transform: none;
+    margin: 0;
+    padding: 0
+}
+
+#container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
