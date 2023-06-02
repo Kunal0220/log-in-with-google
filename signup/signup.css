@@ -17,10 +17,44 @@ html {
 }
 
 #container {
-    background-color: rgb(127, 255, 155);
+    background-color: rgb(13, 241, 63);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50vw;
+}
+
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-signup-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-signup-password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-signup-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.padding {
+    display: flex;
+    padding: 10px 0;
+    align-items: left;
 }
